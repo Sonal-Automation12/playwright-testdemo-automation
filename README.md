@@ -12,6 +12,10 @@ https://www.saucedemo.com/
 - Node.js
 - HTML Reporting
 
+## Setup & Installation
+- Node.js
+- Playwright
+
 ## Test Scenarios Covered
 - Valid Login Test
 - Invalid Login Test
@@ -20,6 +24,7 @@ https://www.saucedemo.com/
 
 ##  Project Structure
 
+```
 playwright-automation/
 │
 ├─ tests/
@@ -29,7 +34,7 @@ playwright-automation/
 ├─ package.json
 ├─ invalid-login.png
 └─ inventory-page.png
-
+```
 
 ## How To Run The Project
 
@@ -38,14 +43,14 @@ Install dependencies:
 npm install
 
 
-Run all tests:
+## Run all tests:
 npx playwright test
 
 
-Run specific browser:
+## Run Test case in specific browser:
 npx playwright test --project=chromium or firefox or edge
 
-View HTML Report:
+## View HTML Test Report:
 npx playwright show-report
 
 ## Reporting
