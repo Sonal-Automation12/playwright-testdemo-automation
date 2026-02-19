@@ -16,14 +16,19 @@ https://www.saucedemo.com/
 - Valid Login Test
 - Invalid Login Test
 - Screenshot Capture
-- Cross Browser Testing (Chromium, Firefox, WebKit)
+- Cross Browser Testing (Chromium, Firefox)
 
 ##  Project Structure
 
-tests/
-login.spec.ts
-playwright.config.ts
-package.json
+playwright-automation/
+│
+├─ tests/
+│  ├─ login.spec.ts
+│
+├─ playwright.config.ts
+├─ package.json
+├─ invalid-login.png
+└─ inventory-page.png
 
 
 ## How To Run The Project
